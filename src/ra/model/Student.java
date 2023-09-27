@@ -98,7 +98,7 @@ public class Student {
 
         } while (isExistName);
          // Ngày sinh
-        System.out.println("Nhập vào ngày sinh");
+        System.out.println("Nhập vào ngày sinh(yyyy-mm-dd)");
         this.birthDay = LocalDate.parse(sc.nextLine());
         // Địa chỉ
         boolean isExistAddress = true;
